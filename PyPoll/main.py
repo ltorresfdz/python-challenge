@@ -77,6 +77,7 @@ print("  	Election Results")
 print("---------------------------------------")
 print(f"Total Votes:  {str(total_votes)}")
 print("---------------------------------------")
+print(str(dict[primero]) + ": " + str(porc_primero) + "% " + "(" + str(primero) + ")")
 
 
 
