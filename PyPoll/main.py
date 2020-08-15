@@ -98,8 +98,22 @@ print(f"Correy: {str(porc_segundo)}  %  ( {str(segundo)})")
 print(f"Li: {str(porc_tercero)}  %  ( {str(tercero)})")
 print(f"O'Tooley: {str(porc_cuarto)}  %  ( {str(cuarto)})")
 
-#print(f"Greatest Increase in Profits: {str(fechas[Posicion_mayor])}  (${str(Maximo_cambio)})")
 
+output1_file = os.path.join("..", "Resources", "resultados_votos.txt")
+with open(output1_file, "w") as f:
+    f.write("  	Election Results")
+    f.write("\n")
+    f.write("---------------------------------------")
+    f.write("\n")
+    f.write(f"Total Votes:  {str(total_votes)}")
+    f.write("\n")
+    f.write(f"Khan: {str(porc_primero)}  %  ( {str(primero)})")
+    f.write("\n")
+    f.write(f"Correy: {str(porc_segundo)}  %  ( {str(segundo)})")
+    f.write("\n")
+    f.write(f"Li: {str(porc_tercero)}  %  ( {str(tercero)})")
+    f.write("\n")
+    f.write(f"O'Tooley: {str(porc_cuarto)}  %  ( {str(cuarto)})")
 
 
 
